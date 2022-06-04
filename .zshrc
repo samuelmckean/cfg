@@ -112,3 +112,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # Dotfile git repo alias
 alias config='/usr/bin/git --git-dir=/Users/samuelmckean/.cfg/ --work-tree=/Users/samuelmckean'
+
+# Use vim keybindings in shell
+bindkey -v
