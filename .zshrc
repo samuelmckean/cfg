@@ -109,4 +109,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # Fig post block. Keep at the bottom of this file.
 . "$HOME/.fig/shell/zshrc.post.zsh"
+
+# Dotfile git repo alias
 alias config='/usr/bin/git --git-dir=/Users/samuelmckean/.cfg/ --work-tree=/Users/samuelmckean'
