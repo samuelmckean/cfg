@@ -121,3 +121,4 @@ set -o vi
 
 # Alias for dotfile management
 alias config='/usr/bin/git --git-dir=/home/samuelmckean/.cfg/ --work-tree=/home/samuelmckean'
+alias rm='rm -i'

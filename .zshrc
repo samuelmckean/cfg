@@ -115,3 +115,4 @@ alias config='/usr/bin/git --git-dir=/Users/samuelmckean/.cfg/ --work-tree=/User
 
 # Use vim keybindings in shell
 bindkey -v
+alias rm='rm -i'
