@@ -1,8 +1,8 @@
 set noshowmode 
-filetype off                  " required
-set nocompatible
+filetype off
+
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
