@@ -64,9 +64,11 @@ let g:lightline#bufferline#show_number=2
 " Always show tabline
 set showtabline=2
 
+" Always use 4 spaces for a tab
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
 syntax on
 " 
 " Disable the default Vim startup message.
