@@ -8,6 +8,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" Theme
+Plugin 'sonph/onehalf', {'rtp': 'vim/'}
+
 " Lightline
 Plugin 'itchyny/lightline.vim'
 Plugin 'mengelbrecht/lightline-bufferline'
@@ -31,7 +34,6 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 " Theme
-Bundle 'sonph/onehalf', {'rtp': 'vim/'}
 colorscheme onehalfdark
 
 " lightline config
