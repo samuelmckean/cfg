@@ -34,6 +34,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 " Theme
+set cursorline
 colorscheme onehalfdark
 
 " lightline config
