@@ -29,6 +29,10 @@ Plugin 'tomlion/vim-solidity'
 " NERD Commenter
 Plugin 'preservim/nerdcommenter'
 
+" Theme
+Plugin 'sonph/onehalf', {'rtp': 'vim/'}
+" Plugin 'joshdick/onedark.vim', {'rtp': 'vim/'}
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
