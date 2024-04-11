@@ -1,7 +1,6 @@
 # zsh config
 export ZSH="/Users/aa229070/.oh-my-zsh"
 ZSH_THEME="apple"
-source $ZSH/oh-my-zsh.sh
 
 # load plugins
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions fzf)
@@ -58,3 +57,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # set JAVA_HOME to be sdkman current java installation
 export JAVA_HOME=/Users/aa229070/.sdkman/candidates/java/current
+
+source $ZSH/oh-my-zsh.sh
+
