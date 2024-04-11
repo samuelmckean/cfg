@@ -58,5 +58,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # set JAVA_HOME to be sdkman current java installation
 export JAVA_HOME=/Users/aa229070/.sdkman/candidates/java/current
 
+# THIS NEEDS TO BE AT EOF
 source $ZSH/oh-my-zsh.sh
-
